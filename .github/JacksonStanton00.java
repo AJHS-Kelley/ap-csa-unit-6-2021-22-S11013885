@@ -13,14 +13,23 @@ for (current_element = 0 ; current_element < carArr.lentgh(); current_element +=
     //statement 3 is executed eac time the loop runs.
 }
 */
-for( int i = 0; i < carArr.lentgh; i++){
-    // System.out.println(i);
+for( int i = 0; i < carArr.length; i++){
+    // System.out.println(i);<--- print the index variable
+    // System.out.println(carArr[i]);<----
+    
+    
+    
+    
+    
+    if (carArr[i].length() % 2 == 0) {
+        System.out.println(carArr[i]);
+        System.out.println("This string is even");
+
+} else{
     System.out.println(carArr[i]);
+    System.out.println("This string is odd");
 
 }
-
-
-
 
 
 
@@ -57,7 +66,9 @@ for (int eachElement2 : myGrades) {
 
 
 
-            }
-        }
-    }
+}
+}
+}
+}
+}
 }
